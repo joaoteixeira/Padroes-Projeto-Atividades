@@ -5,6 +5,10 @@
  */
 package br.edu.ifro.app;
 
+import br.edu.ifro.app.screen.LoginAccess;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author 2298760
@@ -15,7 +19,17 @@ public class Start {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("My project test - version control git/github");
+        String message = "Hello World!";
+        //startApp();
     }
     
+    private static void startApp() {
+        JFrame frame = new JFrame();
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.getContentPane().add(new LoginAccess());
+        frame.pack();
+        frame.setLocationRelativeTo(frame);
+        frame.setVisible(true);
+    }
 }
