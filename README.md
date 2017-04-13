@@ -1,2 +1,2 @@
-# Padroes-Projeto-Atividades
-Repositório da disciplina de Padrõs de Projeto. Prof. João
+# Padrões de Projeto - Atividades
+Repositório da disciplina das atividades de Padrões de Projeto. Prof. João
